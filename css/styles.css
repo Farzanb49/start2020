@@ -1,0 +1,101 @@
+body{
+    background-color: #4d0041;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tempfoot{
+    position: absolute;
+    bottom: 0;
+    opacity: 0.87;
+    height: 29px;
+    background-color: #fdfdfd;
+    line-height: 29px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#centreTxt{
+    position: absolute;
+    bottom: 50%;
+    opacity: 0.9;
+    height: 20%;
+    color: #87004f;
+    background-color: #fdfdfd;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 8vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#counter{
+    position: absolute;
+    bottom: 30%;
+    height: 20%;
+    opacity: 0.9;
+    background-color: #ffcd03;
+    text-align: center;   
+}
+
+#timetext{
+    -webkit-animation-delay: 1s;
+    bottom: 40%;
+    vertical-align: middle;
+    color: #fdfdfd;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vw;
+}
+
+#icons{
+    margin-top: 0.3%;
+}
+#imgcontainer{
+   position: absolute;
+   right: 0.5%;
+}
+
+#txt{
+    text-align: centre;
+    color: #fdfdfd;
+    font-size: 50pt;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#fb:hover{
+    background-image: url('../images/fb1.png');
+}
+#ig:hover{
+    background-image: url('../images/ig1.png');
+}
+#tt:hover{
+    background-image: url('../images/tt1.png');
+}
+
+#fb{
+    -webkit-animation-delay: 0.9s;
+}
+
+#ig{
+    -webkit-animation-delay: 0.6s;
+}
+#tt{
+    -webkit-animation-delay: 0.3s;
+}
+
+#trans:hover{
+    background-image: url('../images/transbuttonhover.png')
+}
+
+#contButton{
+    height: 3%;
+    position: absolute;
+    bottom: 22%;
+    opacity: 0.9;
+    color: #fdfdfd;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#outerBox{
+    -webkit-animation-delay: 1s;
+}
